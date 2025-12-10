@@ -58,6 +58,8 @@
             <p>This is a modern-looking HTML page with a gradient background and glass-effect card.</p>
         </div>
     </div>
+add comments in it
+just for practice
 
     <footer>
         © 2025 MyWebsite — All Rights Reserved
