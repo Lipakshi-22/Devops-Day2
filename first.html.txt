@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            color: #fff;
+        }
+        header {
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255,255,255,0.15);
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 500px;
+            margin: 30px auto;
+            backdrop-filter: blur(10px);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Page</h1>
+    </header>
+
+    <div class="content">
+        <div class="card">
+            <h2>Hello 👋</h2>
+            <p>This is a modern-looking HTML page with a gradient background and glass-effect card.</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 MyWebsite — All Rights Reserved
+    </footer>
+
+</body>
+</html>
